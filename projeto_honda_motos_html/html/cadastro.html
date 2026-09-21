@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projeto acadêmico sobre motocicletas inspirado no universo Honda Motos.">
+  <meta name="author" content="Projeto HTML Avançado">
+  <title>Cadastro | Honda Motos</title>
+</head>
+<body>
+<header>
+  <h1>Honda Motos</h1>
+  <p>Liberdade sobre duas rodas</p>
+  <nav>
+  <a href="index.html">Início</a> |
+  <a href="sobre.html">Sobre</a> |
+  <a href="modelos.html">Modelos</a> |
+  <a href="street.html">Street</a> |
+  <a href="adventure.html">Adventure</a> |
+  <a href="sport.html">Sport</a> |
+  <a href="galeria.html">Galeria</a> |
+  <a href="noticias.html">Notícias</a> |
+  <a href="artigo.html">Artigo</a> |
+  <a href="servicos.html">Serviços</a> |
+  <a href="cadastro.html">Cadastro</a> |
+  <a href="faq.html">FAQ</a> |
+  <a href="multimidia.html">Multimídia</a> |
+  <a href="contato.html">Contato</a>
+</nav>
+</header>
+<main>
+
+<section>
+<h2>Formulário de interesse</h2>
+<form action="#" method="post" enctype="multipart/form-data">
+<fieldset>
+<legend>Dados pessoais</legend>
+<label for="nome">Nome:</label>
+<input id="nome" name="nome" type="text" placeholder="Digite seu nome" required><br><br>
+<label for="email">E-mail:</label>
+<input id="email" name="email" type="email" placeholder="Digite seu e-mail" required><br><br>
+<label for="data">Data de nascimento:</label>
+<input id="data" name="data" type="date" required><br><br>
+<label for="modelo">Modelo de interesse:</label>
+<input id="modelo" name="modelo" list="modelos" placeholder="Escolha ou digite um modelo" required>
+<datalist id="modelos">
+<option value="CG 160"><option value="CB300F"><option value="CB500 Hornet"><option value="NXR Bros"><option value="XRE Sahara"><option value="Africa Twin">
+</datalist><br><br>
+<label for="arquivo">Envie uma foto (opcional):</label>
+<input id="arquivo" name="arquivo" type="file"><br><br>
+<label for="cor">Cor preferida:</label>
+<input id="cor" name="cor" type="color" value="#cc0000"><br><br>
+<label for="experiencia">Nível de experiência:</label>
+<input id="experiencia" name="experiencia" type="range" min="0" max="10" value="5"><br><br>
+<label><input type="checkbox" required> Aceito participar deste formulário acadêmico.</label><br><br>
+<button type="submit">Enviar</button>
+</fieldset>
+</form>
+</section>
+
+</main>
+<footer>
+  <hr>
+  <p><strong>Escolha a honda ideal para você.</strong></p>
+  <p>escolha acima.</p>
+</footer>
+</body>
+</html>
